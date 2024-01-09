@@ -1,0 +1,16 @@
+{
+  "todos": [
+    {
+      "todo": "sdfasdasdss",
+      "completed": false,
+      "user": 1,
+      "id": 1
+    },
+    {
+      "todo": "safasfas",
+      "completed": false,
+      "user": 1,
+      "id": 3
+    }
+  ]
+}

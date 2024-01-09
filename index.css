@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+
+  font-family: 'Kanit', sans-serif;
+}
+.app {
+  
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.todo-app {
+  /* background: blue;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px; */
+  background-color: rgb(255, 255, 255);
+  padding: 60px;
+  width: 42%;
+  margin: 0 auto;
+  border-radius: 17px;
+  margin-top: 50px;
+  box-shadow: 5px 5px 10px #a5a5a5;
+  
+
+}
+
+.todo-app {
+  transition: transform 0.3s ease-in-out;
+}
+
+.todo-app:hover {
+  transform: scale(1.1); /* You can adjust the scale factor as needed */
+}
+
+.dashboard {
+  /* background-color: skyblue; */
+  height: 50px;
+  display: flex;
+  padding: 40px;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 8px ;
+}
+
+.form-add-todo {
+  /* background-color: gold; */
+  padding: 8px 16px;
+  display: flex;
+  gap: 2px;
+}
+
+.form-add-todo > input {
+  flex-grow : 8;
+
+  font-size: large;
+  padding: 4px 8px;
+  border-radius: 8px;
+}
+.form-add-todo > button {
+  flex-grow : 2;
+
+}
+
+.btn-hover1 {
+  width: 100px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 5px;
+  height: 40px;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+
+  border-radius: 50px;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-hover1:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-hover1:focus {
+  outline: none;
+}
+
+.btn-hover1.color-13 {
+  background-image: linear-gradient(to right, #607274, #607274, #5fbfca, #1f91d3);  box-shadow: 0 5px 15px rgba(242, 97, 103, .4);
+}
+
+.todo-container {
+  border: 1px dashed lime;
+  padding: 8px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.todo-item {
+  background-color: aqua;
+  padding: 4px 8px;
+  display: flex;
+  justify-content: space-between;
+  font-size: large;
+}
+
+
+.todo-item .btm-grup a {
+  display: flex;
+
+}
