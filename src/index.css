@@ -30,8 +30,9 @@ body {
   border-radius: 17px;
   margin-top: 50px;
   box-shadow: 5px 5px 10px #a5a5a5;
-  
-
+  display: flex;
+  flex-direction: column; 
+  align-items: stretch; 
 }
 
 .todo-app {
@@ -163,8 +164,6 @@ body {
 
 }
 
-
-
 .but-4 {
   padding: 12.5px 20px;
   border: 0;
@@ -224,13 +223,15 @@ but-5:active {
   font-size: 20px;
   border-radius: 8px;
   height: 40px;
-
   
+
   
 }
 
 .todo-item p {
-  padding-left: 10px;
+  padding-left: 15px;
+  padding-top: 5px;
+
 }
 
 .todo-item:hover {
@@ -250,6 +251,8 @@ but-5:active {
   white-space: nowrap;
   overflow-x: hidden;
   text-overflow: ellipsis;
+  height: 47px;
+  
 }
 
 .todo-item .btn-group {
@@ -258,7 +261,7 @@ but-5:active {
 }
 
 .todo-item .btn-group a {
-  border: 1px solid silver;
+  
   padding: 2px 4px;
   cursor: pointer;
 }
@@ -268,24 +271,28 @@ but-5:active {
   color: silver;
 }
 
-
+.btn-group{
+  padding-top: 5px;
+}
 
 
 .but-2{
-  border: none;
- color: #fff;
- background-image: linear-gradient(30deg, #8d8d8d, #d3d3d3);
+
+
+ text-align: center;
  border-radius: 15px;
  background-size: 100% auto;
  font-family: inherit;
  font-size: 17px;
- padding: 0.6em 1.5em;
+
  width: 50px;
 }
 
 .but-2:hover {
  background-position: right center;
  background-size: 200% auto;
+ color: #ffffff;
+ background-image: linear-gradient(30deg, #e3e659, #f5d468);
  -webkit-animation: pulse 2s infinite;
  animation: pulse512 1.5s infinite;
 }
@@ -305,9 +312,7 @@ but-5:active {
 }
 
 .but-3{
-  border: none;
- color: #fff;
- background-image: linear-gradient(30deg, #e04444, #f56868);
+
  border-radius: 15px;
  width: 50px;
  background-size: 100% auto;
@@ -320,6 +325,8 @@ but-5:active {
 .but-3:hover {
  background-position: right center;
  background-size: 200% auto;
+ color: #ffffff;
+ background-image: linear-gradient(30deg, #e04444, #f56868);
  -webkit-animation: pulse 2s infinite;
  animation: pulse512 1.5s infinite;
 }
