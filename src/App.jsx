@@ -1,5 +1,5 @@
 import TodoApp from "./components/TodoApp"
-import { TodoContextProvider } from "../contexts/TodoContext"
+import { TodoContextProvider } from "./src/contexts/TodoContext"
 
 function App() {
   return (
